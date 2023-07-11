@@ -144,3 +144,34 @@ body {
     margin-bottom: 100px;
     width: 500px;
 }
+
+/* Footer */
+
+footer {
+    background-color: #111010;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 50px 100px;
+    margin-top: 100px;
+}
+
+#fotter-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#footer-description {
+    color: #FFFFFFE5;
+    max-width: 450px;
+    padding: 0px 350px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    margin: 50px;
+}
