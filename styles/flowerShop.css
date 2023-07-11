@@ -9,6 +9,24 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.overall {
+    margin: 100px 200px;
+    align-items: center;
+}
+
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -19,7 +37,8 @@ body {
     padding: 15px 30px;
     margin-top: 15px;
 }
-.pink-text{
+
+.pink-text {
     color: #E55473;
 }
 
@@ -42,13 +61,6 @@ body {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-}
-
-#header-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 15px;
 }
 
 #header-img {
@@ -79,14 +91,17 @@ body {
     font-weight: 800;
 }
 
-#hot-deal-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 15px;
-}
-
 #hot-deal-img {
     margin: 50px 0px;
     height: 250px;
 }
+
+/* Social */
+#social{
+    text-align: center;
+}
+
+#social-description{
+    max-width: 400px;
+    padding: 0px 300px;
+ }
