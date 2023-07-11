@@ -44,6 +44,46 @@ body {
     color: #E55473;
 }
 
+/* Nav related styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#111010 ;
+    padding: 15px;
+}
+
+.nav-title {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 51px;
+}
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+nav i{
+    color: #E55473;
+}
+nav button{
+    background-color: #111010;
+    border: none;
+}
+nav button:hover{
+    background-color: #FFFFFF;
+}
+
 /* Banner */
 
 #banner {
