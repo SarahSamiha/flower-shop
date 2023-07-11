@@ -71,6 +71,50 @@ body {
     height: 500px;
 }
 
+/* Feature */
+
+.feature-container {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+
+}
+
+.feature {
+    text-align: center;
+}
+
+.features {
+    border-radius: 300px 300px 0px 0px;
+    width: 280px;
+    height: 300px;
+}
+
+.feature>.description {
+    max-width: 400px;
+    padding: 0px 320px;
+    margin-bottom: 50px;
+}
+
+.feature-container img {
+    margin: 50px 0px;
+    height: 250px;
+}
+
+.name-conatiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-names {
+    color: #272727;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+
 /* Hot Deal */
 
 #hot-deal {
