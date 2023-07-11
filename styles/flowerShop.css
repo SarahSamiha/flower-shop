@@ -21,7 +21,8 @@ body {
     font-weight: 800;
     margin-top: 100px;
 }
-.description{
+
+.description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 12px;
     font-weight: 400;
@@ -98,23 +99,48 @@ body {
 }
 
 /* Social */
-#social{
+#social {
     text-align: center;
     align-items: center;
 }
 
-#social-description{
+#social-description {
     max-width: 400px;
     padding: 0px 320px;
 }
-.flowers-container{
+
+.flowers-container {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
 }
 
-.flowers-container img{
+.flowers-container img {
     width: 240px;
     height: 260px;
 }
 
+/* Contact */
+
+.contact-container {
+    background-image: url("../Flower Asset/Rectangle_9.png");
+    display: block;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#contact-title {
+    padding-top: 100px;
+}
+
+.contact-container input[Type="email"] {
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 0px;
+    padding: 15px 30px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    width: 500px;
+}
