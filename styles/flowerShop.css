@@ -71,7 +71,9 @@ nav li {
 nav a {
     text-decoration: none;
     color: #FFFFFF;
-
+}
+nav a:hover{
+    background-color: #E55473
 }
 nav i{
     color: #E55473;
@@ -116,7 +118,7 @@ nav button:hover{
 .feature-container {
     display: flex;
     gap: 15px;
-    justify-content: space-around;
+    justify-content:space-between;
 
 }
 
@@ -128,6 +130,7 @@ nav button:hover{
     border-radius: 300px 300px 0px 0px;
     width: 280px;
     height: 300px;
+    margin: 0px;
 }
 
 .feature>.description {
@@ -143,7 +146,7 @@ nav button:hover{
 
 .name-conatiner {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
 }
 
 .flower-names {
@@ -153,8 +156,28 @@ nav button:hover{
     font-weight: 700;
     text-decoration-line: underline;
     margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
 }
 
+/* Uniqueness */
+
+.uniqueness{
+    display: flex;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 100px;
+    justify-content: space-around;
+    padding: 50px;
+} 
+.uniqueness img{
+    width: 50px;
+    height: 50px;
+}
+.unique-feature{
+    text-align: center;
+}
 /* Hot Deal */
 
 #hot-deal {
